@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    scroll-behavior: smooth;      /* The images of all in my gallery having use of title
+                                             element so you can know about images*/
+
+}
+h1{
+    padding: 10px 40px;
+    background-color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    border: 2px solid rgb(179, 122, 49);
+    text-align: center;
+    text-decoration: underline  rgb(179, 144, 98) ;
+}
+span {
+    color:red ;
+    font-weight: 500;
+}
+
+h3{
+    background-color: rgb(179, 144, 98);
+    color: white;
+    font-weight: 500;
+    margin: 2px 0px ;
+    text-align:center ;
+    text-decoration: underline black;
+    font-size: 21px;
+}
+.img-continer{
+    padding: 16px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);            /* this is grid container*/
+    grid-auto-rows: 300px;
+    grid-gap: 16px;
+    margin: 40px 80px;
+    border: 5px solid  red ;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.img-continer > img{     /* use of combinator*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.first{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.seventh{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.eleven{
+    grid-column: span 2;
+}
+.ten{
+    grid-column: span 2;
+}
+.hex{
+    grid-row: span 2;
+}
+.gate{
+    grid-row: span 2;
+}
+.taj{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.flag{
+    grid-row: span 2;
+}
+
+img:hover{
+    transform: scale(1.1);
+    
+}
