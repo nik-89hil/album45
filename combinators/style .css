@@ -1,0 +1,12 @@
+/*.container p{
+    color: yellow;
+}
+
+.container>.inside-container >p{
+    color: blue;
+}
+*/
+
+ul~p{
+    color: red;
+}
